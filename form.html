@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tag</title>
+</head>
+<body>
+    <div>
+        <form>
+            <h1>Student details</h1>
+            <label>Name :</label>
+            <input type="text" placeholder="Enter Name" name="username">
+             <br/><br/> 
+
+            <label>DOB :</label>
+            <input type="date">
+            <br/><br/>
+
+            <label>Age :</label>
+            <input type="number" placeholder="type your age">
+            <br/><br/>
+
+            <label>College Name:</label>
+            <input type="text">
+            <br/><br/>
+
+            <label>Phone Number :</label>
+            <input type="number">
+            <br/><br/>
+            <fieldset style="width: 20%;">
+                <legend>Gender :</legend>
+                <input type="radio" id="Male" value="Male" name="Gender">
+                <label>Male</label><br/>
+                <input type="radio" id="Female" value="Female" name="Gender">
+                <label>Female</label><br/>
+                <input type="radio" id="Other" value="Other" name="Gender">
+                <label>Other</label>
+            </fieldset>
+            <fieldset style="width: 20%;">
+                <legend>Skills</legend>
+                <input type="checkbox" id="java" value="Java" name="Skills">
+                <label>Java</label><br/>
+                <input type="checkbox" id="java" value="CSS" name="Skills">
+                <label>CSS</label><br/>
+                <input type="checkbox" id="java" value="Html" name="Skills">
+                <label>Html</label>
+
+            </fieldset>
+           <label>Select role :</label> 
+           <select>
+                <option value="student">student</option>
+                <option value="employee">employee</option>
+           </select>  <br/><br/>
+           <lable>Resume</lable> 
+           <input type="file" id="Resume" value="Resume" accept=".pdf,.doc,.docx" required> 
+           <br/><br/>      
+            <label for="email">Email: </label>  
+            <input type="email" id="email" name="email" placeholder="enter your email"/>
+            <br/>
+            <br/>
+            <label for="password">passward </label>  
+            <input type="password" id="password" name="password" placeholder="enter your password"/>
+            <br/><br/>
+            <label>Comments</label><br/>
+            <textarea rows="2" cols="20"></textarea>
+            <br/><br/>
+            <button>submit</button>
+        </form>
+    </div>
+</body>
+</html>
